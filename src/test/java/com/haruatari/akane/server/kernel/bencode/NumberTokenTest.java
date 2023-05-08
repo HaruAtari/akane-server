@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class NumberTokenTest {
-
-
     @Test
     public void enCodeTest() {
         assertEquals("i5e", new NumberToken(5).encode());
